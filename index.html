@@ -1,67 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-   <div class="container">
-        <div class="item1">
-            div 1
+    <nav>
+        <div class="left">
+            <a href="/">Suyog Pokharel</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+             <i class="fa-brands fa-github"></i>
+             <span>Github</span>
+             </a>
+             <a href="mailto:suyogpokharel123@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+             <span>Email</span>
+             </a>
         </div>
 
-
-        <div class="item2">
-            div 2
-        </div>
-
-
-        <div class="item3">
-            div 3
-        </div>
-
-        <!-- <div class="item">
-            div 4
-        </div>
-
-        <div class="item">
-            div 5
-        </div>
-
-        <div class="item">
-            div 6
-         </div>
-
-         <div class="item">
-            div 7
-        </div>
-
-
-        <div class="item">
-            div 8
-        </div>
-
-
-        <div class="item">
-            div 9
-        </div>
-
-        <div class="item">
-            div 10
-        </div>
-
-        <div class="item">
-            div 11
-        </div>
-
-        <div class="item">
-            div 12
-         </div> -->
-
-
-   </div>
-    
+    </nav>
+    <main>
+        <!--section1 introduction-->
+        <section class="introduction--">
+            <div class="text">
+                <h2>Hello i am Suyog Pokharel </h2>
+                <p>Lorem 50ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. </p>
+              <div class="links">
+                <a href="#skills">
+                   <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#testimony">
+                   <i class="fa-solid fa-pen"></i>
+                    <span>testimony</span>
+                </a>
+                <a href="#contact">
+                   <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+              </div>
+              </div>
+              <div class="heashot">
+                <img src="heashot.jpg"alt='headshot'>
+            </div>
+        </section>
+         <!--section2 skills-->
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum atque possimus magni deleniti numquam, pariatur architecto placeat iure quae delectus? Quisquam eos veniam inventore blanditiis animi similique cum debitis aliquam!
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="html-logo.webp" alt="html-logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="css-logo.webp" alt="css-logo">
+                    <span>CSS</span>
+                </div>
+                
+            </div>
+         </section>
+         <!--section3 testimony -->
+         <section id="testimony" class="testimony">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person details">
+                    <img src="girlhead.png" alt="girlhead">
+                    <p>Amaira</p>
+                    <p>Colleague</p>
+                </div>
+                <div class="text">
+                    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi illo quasi ex blanditiis commodi nesciunt aliquam maxime voluptas velit laudantium a esse quod harum eligendi odit praesentium, ea sit corrupti. Provident omnis recusandae cupiditate? Suscipit mollitia debitis quam accusantium tempora? Soluta itaque illum quidem fugiat eum, repellat dolore exercitationem commodi?"
+                </div>
+            </div>
+         </section>
+         <!--section 4 contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <form class="contact-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+         </section>
+     </main>
 </body>
 </html>
+
+
